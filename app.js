@@ -124,7 +124,7 @@ app.get('/getDay', function(req, res) {
   client.get("Day_2", function(err,value){ 
     if(value)
     {
-      console.log("Value exists at Slave:", value);
+      console.log("Value exists at Slave: ", value);
       res.send("Value exists at Slave: "+value)
     }
       
